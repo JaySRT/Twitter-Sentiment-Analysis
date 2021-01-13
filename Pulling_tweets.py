@@ -1,9 +1,9 @@
 #Day1 about how to pull tweets from the Twitter account 
 import tweepy
-consumer_key = "write your key here"
-consumer_secret = "write your key here"
-access_token = "write your key here"
-access_token_secret = "write your key here"
+consumer_key = "entering the key here"
+consumer_secret = "entering the key here"
+access_token = "entering the key here"
+access_token_secret = "entering the key here"
 
 
 from tweepy.auth import OAuthHandler
