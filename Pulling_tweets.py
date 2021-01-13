@@ -19,11 +19,9 @@ public_tweets = api.home_timeline()
 #Printing each tweet
 for tweet in public_tweets:
     print (tweet.text)
-
-    
+ 
 #This should print the first 15 tweets from your home Twitter account. 
 #This data can be used for Text mining
-
 
 #To refer to specific attributes of each tweet object, we have to look at the JSON returned by the Twitter API.
 #Day 2 about extracting specific attributes
