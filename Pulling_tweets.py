@@ -1,9 +1,9 @@
+#Day1
 import tweepy
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
-
+consumer_key = "write your key here"
+consumer_secret = "write your key here"
+access_token = "write your key here"
+access_token_secret = "write your key here"
 
 
 from tweepy.auth import OAuthHandler
@@ -19,3 +19,6 @@ public_tweets = api.home_timeline()
 #Printing each tweet
 for tweet in public_tweets:
     print (tweet.text)
+
+    
+#This should print the first 15 tweets from your home Twitter account. 
