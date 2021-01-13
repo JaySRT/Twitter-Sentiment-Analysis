@@ -21,7 +21,20 @@ for tweet in public_tweets:
     print (tweet.text)
  
 #This should print the first 15 tweets from your home Twitter account. 
-#This data can be used for Text mining
+
+#The twitter user who we want to get tweets from
+name = "nytimes"
+#Number of tweets to pull
+tweetCount = 20
+
+#Calling the user_timline function with our params
+results = api.user_timeline(id=name, count=tweetCount)
+
+#Printing all the tweets (For each through all tweets pulled)
+for tweet in results:
+    print(tweet.text)
+
+#This should print the first 20 tweets from nytimes Twitter account. 
 
 #To refer to specific attributes of each tweet object, we have to look at the JSON returned by the Twitter API.
 #Day 2 about extracting specific attributes
