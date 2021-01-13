@@ -1,4 +1,4 @@
-#Day1
+#Day1 about how to pull tweets from the Twitter account 
 import tweepy
 consumer_key = "write your key here"
 consumer_secret = "write your key here"
@@ -22,3 +22,4 @@ for tweet in public_tweets:
 
     
 #This should print the first 15 tweets from your home Twitter account. 
+#This data can be used for Text mining
