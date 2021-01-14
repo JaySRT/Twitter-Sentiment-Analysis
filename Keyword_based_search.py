@@ -1,3 +1,17 @@
+import tweepy 
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
+
+
+from tweepy.auth import OAuthHandler
+#Creating the Auth Object
+auth = OAuthHandler(consumer_key, consumer_secret)
+#Setting the access token and secret
+auth.set_access_token(access_token, access_token_secret)
+#Creating the API object while passing in the auth info
+api = tweepy.API(auth)
 
 
 
