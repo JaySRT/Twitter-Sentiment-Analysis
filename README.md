@@ -7,6 +7,6 @@ Will be evaluating the contribution of developing countries to it.
 
 Popular applications of this type of data can include:
 
-Running analysis on specific users, and how they interact with the world
-Finding Twitter influencers and analyzing their follower trends and interactions
-Monitoring the changes in the followers of a user
+Running analysis on specific users, and how they interact with the world.
+Finding Twitter influencers and analyzing their follower trends and interactions.
+Monitoring the changes in the followers of a user.
