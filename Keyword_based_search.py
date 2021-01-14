@@ -15,7 +15,7 @@ api = tweepy.API(auth)
 
 
 #The search term we want to find
-query = "Focus"
+query = "Climate"
 #Language code (follows ISO 639-1 standards)
 language = "en"
 
