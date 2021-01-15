@@ -10,3 +10,5 @@ Popular applications of this type of data can include:
 Running analysis on specific users, and how they interact with the world.
 Finding Twitter influencers and analyzing their follower trends and interactions.
 Monitoring the changes in the followers of a user.
+
+Twitter data is open, personal, and extensive. You can extract quite a bit from a user by analyzing their tweets and trends. You can also see how people are talking specific topics using keywords and business names.
