@@ -4,7 +4,6 @@ consumer_secret = "entering the key here"
 access_token = "entering the key here"
 access_token_secret = "entering the key here"
 
-
 from tweepy.auth import OAuthHandler
 #Creating the Auth Object
 auth = OAuthHandler(consumer_key, consumer_secret)
@@ -25,3 +24,12 @@ results = api.search(q=query, lang=language)
 #Printing all tweets (for each through all tweets pulled)
 for tweet in results:
     print(tweet.user.screen_name,"Tweeted:",tweet.text)
+
+    
+    
+    
+    
+    
+    
+    
+    
