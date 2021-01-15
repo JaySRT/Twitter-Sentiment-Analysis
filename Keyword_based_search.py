@@ -12,7 +12,6 @@ auth.set_access_token(access_token, access_token_secret)
 #Creating the API object while passing in the auth info
 api = tweepy.API(auth)
 
-
 #The search term we want to find
 query = "Climate"
 #Language code (follows ISO 639-1 standards)
