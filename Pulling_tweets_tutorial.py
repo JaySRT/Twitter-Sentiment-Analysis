@@ -1,4 +1,5 @@
-#Day1 about how to pull tweets from the Twitter account 
+#Day1 about how to pull tweets from the Twitter account
+
 import tweepy
 consumer_key = "entering the key here"
 consumer_secret = "entering the key here"
