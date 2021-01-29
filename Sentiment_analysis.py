@@ -20,3 +20,8 @@ def create_twitter_url():
     )
     return url
   
+def main():
+	url = create_twitter_url()
+
+if __name__ == "__main__":
+	main()
