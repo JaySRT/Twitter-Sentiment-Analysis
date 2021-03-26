@@ -13,5 +13,3 @@ Monitoring the changes in the followers of a user.
 
 Twitter data is open, personal, and extensive. You can extract quite a bit from a user by analyzing their tweets and trends. You can also see how people are talking specific topics using keywords and business names.
 Working on the Sentiment analysis algorithm. 
-
-## Pull Request Demo
